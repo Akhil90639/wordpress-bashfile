@@ -9,5 +9,4 @@ sudo curl -L https://github.com/docker/compose/releases/download/1.22.0/docker-c
 sudo chmod +x /usr/local/bin/docker-compose
 sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 sudo git clone https://github.com/Akhil90639/wordpress.git
-cd wordpress
 sudo docker-compose up -d
