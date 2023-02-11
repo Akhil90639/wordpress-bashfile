@@ -1,7 +1,7 @@
 #!/bin/bash
 sudo yum -y install git 
 sudo yum -y install docker
-sudo git clone https://github.com/Akhil90639/wordpress.git /var/www/html
+sudo git clone https://github.com/Akhil90639/wordpress.git
 sudo usermod -a -G docker ec2-user
 sudo service docker start
 sudo chkconfig docker on
